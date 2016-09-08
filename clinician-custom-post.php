@@ -74,5 +74,5 @@ function clinicians_custom_taxonomy() {
 		)
 	);
 }
-add_action('init', 'clinicians_custom_taxonomy', 0);
+add_action('init', 'clinicians_custom_taxonomy', 1);
 ?>
