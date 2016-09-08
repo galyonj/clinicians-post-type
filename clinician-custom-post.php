@@ -2,13 +2,14 @@
 /**
  * Plugin Name: Clinician Biographies
  * Plugin URI: https://github.com/galyonj/clinicians-post-type
- * Description: Declares a plugin that will create a custom post type for Covenant Therapy Centers clinicians
+ * Description: Declares a plugin that will create a custom post type for Covenant Therapy Centers clinicians, as well as a custom taxonomy type to handle arranging them.
  * Version: 1.0
  * Author: John Galyon
  * Author URI: https://github.com/galyonj
  * License: GPLv2
  */
 
+// Create a custom post type to handle the addition of Covenant Therapy Centers clinicians
 function clinicians_post_type() {
 	$labels = array(
 		'add_new'               => 'Add New',
@@ -59,4 +60,6 @@ function clinicians_post_type() {
 	register_post_type( 'clinician_bios', $args );
 }
 add_action( 'init','clinicians_post_type', 0 );
+
+
 ?>

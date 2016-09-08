@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5a02fe9-26ac-4597-9502-335ec667f7bc" name="Covenant Plugins Directory" url="">
+        <fileTransfer host="ftp.covdevsrv.com" port="22222" rootFolder="/home/jgalyon/public_html/wp-content/plugins" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
