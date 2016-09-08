@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Movie Reviews
+ * Plugin Name: Clinician Biographies
  * Plugin URI: https://github.com/galyonj/clinicians-post-type
  * Description: Declares a plugin that will create a custom post type for Covenant Therapy Centers clinicians
  * Version: 1.0
