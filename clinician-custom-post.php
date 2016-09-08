@@ -55,7 +55,7 @@ function clinicians_post_type() {
 		'show_in_nav_menus'   => false,
 		'show_ui'             => true,
 		'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions' ),
-		'taxonomies'          => array( 'category' )
+		'taxonomies'          => array( 'location' )
 	);
 	register_post_type( 'clinician_bios', $args );
 }
