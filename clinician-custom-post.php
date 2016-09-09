@@ -93,6 +93,7 @@ function clinicians_custom_taxonomy() {
 		'items_list_navigation'      => __( 'Items list navigation', 'text_domain' ),
 	);
 	$args = array(
+		'capabilities'               => array( 'manage_terms', 'edit_terms', 'delete_terms', 'assign_terms' ),
 		'description'                => 'Covenant Therapy Centers locations',
 		'labels'                     => $labels,
 		'hierarchical'               => true,
