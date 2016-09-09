@@ -74,7 +74,7 @@ function clinicians_post_type() {
 		'parent_item_colon'     => __( 'Parent Item:', 'text_domain' ),
 		'all_items'             => __( 'All Clinicians', 'text_domain' ),
 		'add_new_item'          => __( 'Add New Clinician', 'text_domain' ),
-		'add_new'               => __( 'Add New Clinician', 'text_domain' ),
+		'add_new'               => __( 'Add New', 'text_domain' ),
 		'new_item'              => __( 'New Clinician', 'text_domain' ),
 		'edit_item'             => __( 'Edit Clinician', 'text_domain' ),
 		'update_item'           => __( 'Update Clinician', 'text_domain' ),
