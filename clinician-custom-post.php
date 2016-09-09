@@ -44,7 +44,7 @@ function clinicians_post_type() {
 		'description'           => __( 'Add, edit, or delete Covenant Therapy Centers clinician listings.', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', ),
-		'taxonomies'            => array( 'location' ),
+		'taxonomies'            => array( 'clinician_location' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -54,11 +54,10 @@ function clinicians_post_type() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => false,
 		'can_export'            => true,
-		'has_archive'           => false,
+		'has_archive'           => true,
 		'exclude_from_search'   => true,
 		'publicly_queryable'    => true,
-		'query_var'             => 'post_type',
-		'capability_type'       => 'post',
+		'capability_type'       => 'page',
 	);
 	register_post_type( 'clinician_bios', $args );
 
