@@ -84,7 +84,7 @@ function clinicians_custom_taxonomy() {
 		'view_item'                  => __( 'View Location', 'text_domain' ),
 		'separate_items_with_commas' => __( 'separate items with commas', 'text_domain' ),
 		'add_or_remove_items'        => __( 'Add or remove items', 'text_domain' ),
-		'choose_from_most_used'      => __( 'Choose from the most used', 'text_domain' ),
+		'choose_from_most_used'      => null,
 		'popular_items'              => __( 'Popular Locations', 'text_domain' ),
 		'search_items'               => __( 'Search Locations', 'text_domain' ),
 		'not_found'                  => __( 'Not Found', 'text_domain' ),
