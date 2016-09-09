@@ -55,7 +55,7 @@ function clinicians_post_type() {
 		'show_in_nav_menus'   => false,
 		'show_ui'             => true,
 		'supports'            => array( 'title', 'editor', 'thumbnail', 'revisions' ),
-		'taxonomies'          => array( 'location' )
+		'taxonomies'          => array( 'clinician_location' )
 	);
 	register_post_type( 'clinician_bios', $args );
 }
@@ -64,7 +64,7 @@ add_action( 'init','clinicians_post_type', 0 );
 // create a custom taxonomy only accessible via the custom post type (I hope)
 function clinicians_custom_taxonomy() {
 	register_taxonomy(
-		'location',
+		'clinician_location',
 		'Clinician Bios',
 		array(
 			'hierarchical' => false,
