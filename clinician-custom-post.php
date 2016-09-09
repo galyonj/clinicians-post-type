@@ -69,7 +69,7 @@ function clinicians_post_type() {
 		'name'                  => _x( 'Clinicians', 'Post Type General Name', 'text_domain' ),
 		'singular_name'         => _x( 'Clinician', 'Post Type Singular Name', 'text_domain' ),
 		'menu_name'             => __( 'Clinician Bios', 'text_domain' ),
-		'name_admin_bar'        => __( 'Clinician Bios', 'text_domain' ),
+		'name_admin_bar'        => __( 'Clinician', 'text_domain' ),
 		'archives'              => __( 'Clinician Archives', 'text_domain' ),
 		'parent_item_colon'     => __( 'Parent Item:', 'text_domain' ),
 		'all_items'             => __( 'All Clinicians', 'text_domain' ),
