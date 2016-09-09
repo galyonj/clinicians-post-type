@@ -9,6 +9,8 @@
  * License: GPLv2
  */
 
+// TODO: Are we best served by using an activation hook to dynamically create the page on which these things will live?
+
 // Register Custom Post Type
 function clinicians_post_type() {
 
@@ -91,6 +93,7 @@ function clinicians_custom_taxonomy() {
 		'items_list_navigation'      => __( 'Items list navigation', 'text_domain' ),
 	);
 	$args = array(
+		'description'                => 'Covenant Therapy Centers locations',
 		'labels'                     => $labels,
 		'hierarchical'               => true,
 		'public'                     => true,
