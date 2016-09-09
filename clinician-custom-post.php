@@ -64,6 +64,7 @@ function clinicians_post_type() {
 }
 add_action( 'init', 'clinicians_post_type', 0 );
 
+
 // Register Custom Taxonomy
 function clinicians_custom_taxonomy() {
 
