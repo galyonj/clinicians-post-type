@@ -103,7 +103,7 @@ function clinicians_custom_taxonomy() {
 		'show_in_nav_menus'          => false,
 		'show_tagcloud'              => false,
 	);
-	register_taxonomy( 'clinician_location', array( 'clinician_bios' ), $args );
+	register_taxonomy( 'clinician_locations', array( 'clinician_bios' ), $args );
 
 }
 add_action( 'init', 'clinicians_custom_taxonomy', 0 );
